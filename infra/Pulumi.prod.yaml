@@ -1,0 +1,4 @@
+config:
+  example:domainName: deployelixir.xyz
+  example:sshKeyName: example
+  example:sshPubKeyFilename: /Users/dorian/.ssh/example.pub

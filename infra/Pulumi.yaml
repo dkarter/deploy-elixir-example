@@ -1,0 +1,11 @@
+name: example
+runtime: nodejs
+description: deployment example
+template:
+    config:
+        sshKeyName:
+          description: Your SSH key name. (e.g. id_rsa)
+        sshPubKeyFilename:
+          description: Full path to your SSH *public* key (e.g. /Users/username/.ssh/id_rsa.pub)
+        domainName:
+          description: Domain name for the server (e.g. example.com)

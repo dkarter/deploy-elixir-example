@@ -1,0 +1,3 @@
+---
+secret_key_base: "{{ secret_secret_key_base }}"
+erlang_cookie: "{{ secret_erlang_cookie }}"

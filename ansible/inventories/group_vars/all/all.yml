@@ -1,0 +1,6 @@
+---
+username: deploy
+app_name: example
+project_name: example
+domain: deployelixir.xyz
+admin_email: "{{ secret_admin_email }}"

@@ -1,0 +1,44 @@
+---
+- hosts: application
+
+  remote_user: root
+
+  tasks:
+    - name: Create .env file
+      template:
+        src: "{{ app_name }}.env"
+        dest: "/home/{{ username }}/{{ app_name }}.env"
+        owner: "{{ username }}"
+        group: "{{ username }}"
+
+    - name: Source .env file in user profile
+      lineinfile:
+        dest: '/home/{{ username }}/.profile'
+        regexp: '^\. "$HOME/{{ app_name }}.env"'
+        line: '. "$HOME/{{ app_name }}.env"'
+        state: present
+        backup: yes
+
+    - name: Ensures shared/config dir exists
+      file:
+        path: "/home/{{ username }}/app_config"
+        state: directory
+        owner: "{{ username }}"
+        group: "{{ username }}"
+
+    - name: Copy prod.secret.exs with owner and permissions
+      copy:
+        src: ../../config/prod.secret.exs
+        dest: "/home/{{ username }}/app_config/prod.secret.exs"
+        owner: "{{ username }}"
+        group: "{{ username }}"
+
+    - name: Create Systemd Init Script
+      template:
+        src: "{{ app_name }}.service"
+        dest: "/etc/systemd/system/{{ app_name }}.service"
+
+    - name: Enable Systemd service for application
+      systemd:
+        name: "{{ app_name }}"
+        enabled: yes

@@ -1,0 +1,18 @@
+# vi: ft=systemd
+
+[Unit]
+Description={{ app_name }}
+After=network.target
+
+[Service]
+User={{ username }}
+Restart=on-failure
+
+Type=forking
+Environment=MIX_ENV=prod
+EnvironmentFile= "/home/{{ username }}/{{ app_name }}.env"
+ExecStart= /home/{{ username }}/app_release/{{ project_name }}/bin/{{ project_name }} start
+ExecStop= /home/{{ username }}/app_release/{{ project_name }}/bin/{{ project_name }} stop
+
+[Install]
+WantedBy=multi-user.target
