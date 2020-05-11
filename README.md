@@ -1,5 +1,9 @@
 # Automating Elixir Deployment - Example Repo
 
+[See it live!](https://deployelixir.xyz)
+
+![demo](img/deployelixir.jpg)
+
 ## Setup Pulumi
 
 1. Get a [Digital Ocean](lhttps://bit.ly/create-digital-ocean-account) API key
