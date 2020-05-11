@@ -12,9 +12,6 @@ PRODUCTION_HOSTS="deployelixir.xyz"
 PRODUCTION_USER="deploy"
 DELIVER_TO="/home/deploy/app_release"
 
-# # Clean compiled artifacts between builds
-# GIT_CLEAN_PATHS="_build priv/static"
-
 # Automatically generate version numbers for builds
 # (https://github.com/edeliver/edeliver/wiki/Auto-Versioning)
 AUTO_VERSION=commit-count+git-revision+branch-unless-master
