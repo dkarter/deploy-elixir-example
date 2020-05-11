@@ -13,9 +13,9 @@
 
 This is a companion repository for blog posts I wrote for the [Hashrocket](https://hashrocket.com) blog:
 
-  * [Automate Your Infrastructure with Pulumi](https://hashrocket.com/blog/posts/automate-your-infrastructure-with-pulumi)
+  * [Automate Your Infrastructure with Pulumi (Part 0)](https://hashrocket.com/blog/posts/automate-your-infrastructure-with-pulumi)
   * [Automate Your Elixir Deployments - Part 1 - Ansible](https://hashrocket.com/blog/posts/automate-your-elixir-deployments-part-1-ansible)
-  * [Automate Your Elixir Deployments - Part 2 - Distillery & eDeliver](TODO!)
+  * [Automate Your Elixir Deployments - Part 2 - Distillery & eDeliver](https://hashrocket.com/admin/blog_posts/automate-elixir-deployments-part-2-distillery-edeliver)
 
 
 ## Demo
@@ -170,4 +170,4 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 ## About
 [![Hashrocket logo](https://hashrocket.com/hashrocket_logo.svg)](https://hashrocket.com)
 
-Bullets.vim is kindly supported by [Hashrocket, a multidisciplinary design and development consultancy](https://hashrocket.com). If you'd like to [work with us](https://hashrocket.com/contact-us/hire-us) or [join our team](https://hashrocket.com/contact-us/jobs), don't hesitate to get in touch.
+Deploy Elixir Example is kindly supported by [Hashrocket, a multidisciplinary design and development consultancy](https://hashrocket.com). If you'd like to [work with us](https://hashrocket.com/contact-us/hire-us) or [join our team](https://hashrocket.com/contact-us/jobs), don't hesitate to get in touch.
