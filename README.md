@@ -15,7 +15,7 @@ This is a companion repository for blog posts I wrote for the [Hashrocket](https
 
   * [Automate Your Infrastructure with Pulumi (Part 0)](https://hashrocket.com/blog/posts/automate-your-infrastructure-with-pulumi)
   * [Automate Your Elixir Deployments - Part 1 - Ansible](https://hashrocket.com/blog/posts/automate-your-elixir-deployments-part-1-ansible)
-  * [Automate Your Elixir Deployments - Part 2 - Distillery & eDeliver](https://hashrocket.com/admin/blog_posts/automate-elixir-deployments-part-2-distillery-edeliver)
+  * [Automate Your Elixir Deployments - Part 2 - Distillery & eDeliver](https://hashrocket.com/blog/posts/automate-your-elixir-deployments-part-2-distillery-edeliver)
 
 
 ## Demo
