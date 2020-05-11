@@ -10,8 +10,7 @@
 * [About](#about)
 
 ## What Is This?
-
-This is a companion repository for blog posts I wrote for the [Hashrocket](https://hashrocket.com) blog:
+This is a companion repository for a series of posts I wrote for the [Hashrocket](https://hashrocket.com) blog:
 
   * [Automate Your Infrastructure with Pulumi (Part 0)](https://hashrocket.com/blog/posts/automate-your-infrastructure-with-pulumi)
   * [Automate Your Elixir Deployments - Part 1 - Ansible](https://hashrocket.com/blog/posts/automate-your-elixir-deployments-part-1-ansible)
